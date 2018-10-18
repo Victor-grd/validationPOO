@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: wheat;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}header{
+    height: 5vh;
+}ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 1.2rem;
+}
+#content{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}section{
+    border: 1px solid white;
+    width: 90%;
+    height: inherit;;
+}#bleu{
+    background-color: lightblue;
+}#rouge{
+    background-color: lightcoral;
+}#jaune{
+    background-color: lightyellow;
+}#vert{
+    background-color: lightgreen;
+}#violet{
+    background-color: lightpink;
+}
+footer{
+    height: 10vh;
+}
